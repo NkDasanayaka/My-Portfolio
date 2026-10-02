@@ -1,6 +1,20 @@
 import { useState, useEffect } from "react";
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 
+
+function App() {
+  return (
+    <HelmetProvider>
+      <div className="App"></div>
+        
+        <Helmet>
+          <title>Nisal Kavindika | Portfolio</title>
+          <meta name="description" content="Portfolio of Nisal Kavindika - Software Engineer" />
+          <meta name="keywords" content="Nisal Kavindika, Software Engineer, React Developer" />
+        </Helmet>
+    </HelmetProvider>
+  )
+
 const NAV_LINKS = ["Home", "About", "Skills", "Projects", "Contact"];
 
 const SKILLS = [
