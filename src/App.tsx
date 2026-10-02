@@ -503,7 +503,7 @@ export default function App() {
                   value={formData.name}
                   onChange={(e) => setFormData({ ...formData, name: e.target.value })}
                   className="w-full bg-[#13132a] border border-violet-900/40 rounded-xl px-4 py-3 text-slate-200 placeholder-slate-600 focus:outline-none focus:border-violet-500 transition text-sm"
-                  placeholder="John Doe"
+                  placeholder="Saman Kumara"
                 />
               </div>
               <div>
@@ -514,7 +514,7 @@ export default function App() {
                   value={formData.email}
                   onChange={(e) => setFormData({ ...formData, email: e.target.value })}
                   className="w-full bg-[#13132a] border border-violet-900/40 rounded-xl px-4 py-3 text-slate-200 placeholder-slate-600 focus:outline-none focus:border-violet-500 transition text-sm"
-                  placeholder="john@example.com"
+                  placeholder="saman@example.com"
                 />
               </div>
               <div>
