@@ -299,7 +299,7 @@ export default function App() {
               {[
                 { label: "Name", value: "Nisal Dasanayaka" },
                 { label: "Degree", value: "BSE Software Engineering" },
-                { label: "Email", value: "nisal@example.com" },
+                { label: "Email", value: "nisalkavindikadasanayaka@gmail.com" },
                 { label: "Status", value: "Open to Opportunities" },
               ].map(({ label, value }) => (
                 <div key={label} className="bg-[#13132a] rounded-xl p-4 border border-violet-900/40">
