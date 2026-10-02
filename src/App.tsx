@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const NAV_LINKS = ["Home", "About", "Skills", "Projects", "Contact"];
 
