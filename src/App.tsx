@@ -298,7 +298,7 @@ export default function App() {
             <div className="grid grid-cols-2 gap-4 pt-2">
               {[
                 { label: "Name", value: "Nisal Dasanayaka" },
-                { label: "Degree", value: "BSc Software Engineering" },
+                { label: "Degree", value: "BSE Software Engineering" },
                 { label: "Email", value: "nisal@example.com" },
                 { label: "Status", value: "Open to Opportunities" },
               ].map(({ label, value }) => (
