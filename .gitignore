@@ -1,0 +1,17 @@
+# Dependencies 
+node_modules/
+
+# Build Folders
+dist/
+build/
+.next/
+out/
+
+# Secret / Private Files (Passwords, Keys)
+.env
+.env*.local
+
+# අනවශ්‍ය OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
